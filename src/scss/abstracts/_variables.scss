@@ -1,0 +1,49 @@
+
+// Utility Colors
+$blue: #2B7BD6;
+$green: #29B36A;
+$red: #CF3E4C;
+$yellow: #FF9F00;
+$purple: #9700C8;
+$black: #3e4149;
+$main-text: $black;
+$grey: #686C73;
+$secondary-text: $grey;
+$dark-smoke: #CDCACE;
+$smoke: #EBEAED;
+$dark-snow: #F3F2F4;
+$snow: #F7F7F8;
+
+//Neutral Colors
+$white: #FFF;
+$pure-black: #000;
+
+//==========GRADIENTS==========
+$brand-gradient: linear-gradient(135deg, $purple 0%, $yellow 100%);
+
+$gradient-1: linear-gradient(135deg, $yellow 0%, #E76E25 100%);
+$gradient-2: linear-gradient(135deg, #E76E25 0%, $red 100%);
+$gradient-3: linear-gradient(135deg, $red 0%, $purple 100%);
+$gradient-4: linear-gradient(135deg, $purple 0%, $blue 100%);
+$gradient-5: linear-gradient(135deg, $blue 0%, $green 100%);
+$gradient-6: linear-gradient(135deg, $green 0%, $yellow 100%);
+
+$overlay-gradient: linear-gradient(180deg, #8209BC 0%, #E0085B 100%);
+
+
+//===========FONTS==========
+$muli-font: 'Muli';
+$system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue";
+
+// Font weight
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+
+
+//Font Sizes
+$fontSize-xxl: 1.5rem;
+$fontSize-xl: 1.25rem;
+$fontSize-lg: 1rem;
+$fontSize-r: .875rem;
+$fontSize-s: .75rem;
