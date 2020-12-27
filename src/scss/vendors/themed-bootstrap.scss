@@ -1,0 +1,55 @@
+// Required for Bootstrap
+@import "@/../node_modules/bootstrap/scss/functions";
+@import "@/../node_modules/bootstrap/scss/variables";
+@import "@/../node_modules/bootstrap/scss/mixins";
+
+// Overrides
+@import "@/scss/abstracts/variables";
+
+$theme-colors: ();
+$theme-colors: map-merge((
+  "blue": $blue,
+  "green": $green,
+  "red": $red,
+  "yellow": $yellow,
+  "purple": $purple,
+  "black": $black,
+  "grey": $grey,
+  "dark-smoke": $dark-smoke,
+  "smoke": $smoke,
+  "dark-snow": $dark-snow, 
+  "snow": $snow,
+  "white": $white
+), $theme-colors);
+
+
+
+// Input Overrides
+$input-height: 3rem;
+$input-font-size: $fontSize-r;
+$input-line-height: 1.25rem;
+$input-padding-x: 1rem;
+$input-padding-y: .875rem;
+$input-color: $main-text;
+
+// Form Overrides
+$form-group-margin-bottom: 1.25rem;
+
+// Button Overrides
+$btn-font-weight: $bold;
+$btn-font-size: $fontSize-lg;
+$btn-line-height: 1.25;
+$btn-padding-x: 2rem;
+$btn-padding-y: 1rem;
+
+// Optional Components
+@import "@/../node_modules/bootstrap/scss/reboot";
+@import "@/../node_modules/bootstrap/scss/grid";
+@import "@/../node_modules/bootstrap/scss/utilities";
+@import "@/../node_modules/bootstrap/scss/images";
+@import "@/../node_modules/bootstrap/scss/forms";
+@import "@/../node_modules/bootstrap/scss/custom-forms";
+@import "@/../node_modules/bootstrap/scss/tables";
+@import "@/../node_modules/bootstrap/scss/input-group";
+@import "@/../node_modules/bootstrap/scss/modal";
+@import "@/../node_modules/bootstrap/scss/buttons"

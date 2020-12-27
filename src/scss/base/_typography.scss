@@ -1,0 +1,42 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700');
+
+
+body, html {
+  font-family: 'Muli', sans-serif;
+  color: $main-text;
+}
+
+h1, .heading-1 {
+  font-size: $fontSize-xxl;
+  line-height: 1.25;
+  font-weight: $bold;
+}
+h2, .heading-2 {
+  font-size: $fontSize-xl;
+  line-height: 1.25;
+  font-weight: $bold;
+}
+h3, .heading-3 {
+  font-size: $fontSize-lg;
+  line-height: 1.25;
+  font-weight: $bold;
+}
+
+p, .paragraph {
+  font-size: $fontSize-r;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.caption {
+  line-height: 1.5;
+  font-size: $fontSize-s;
+  font-weight: $semi-bold;
+  color: $secondary-text;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
