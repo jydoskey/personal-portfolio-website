@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="home">
     <Landing />
   </div>
 </template>
@@ -8,13 +8,11 @@
   import Landing from './components/LandingPage.vue'
 
   export default {
-    name: "App",
+    name: "Home",
     components: {
       Landing
     },
-    mounted() {
-
-    },
+   
   };
 </script>
 
