@@ -1,26 +1,26 @@
 <template>
-  <div id="home">
-    <Landing />
+  <div class="app-body">
+      <router-view></router-view>
   </div>
 </template>
 
 <script>
-  import Landing from './components/LandingPage.vue'
+  export default{
+  }
 
-  export default {
-    name: "Home",
-    components: {
-      Landing
-    },
-   
-  };
 </script>
 
 <style lang="scss">
   @import "@/scss/vendors/themed-bootstrap.scss";
   @import "@/scss/main.scss";
 
-  th.caption {
-    color: #505358;
+   .app-body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+  }
+  .app-main{
+    flex: 1 0 auto;
   }
 </style>
