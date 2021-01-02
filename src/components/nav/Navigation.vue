@@ -16,12 +16,6 @@
           </router-link>
         </li>
       </ul>
-      <ul class="secondary-nav-links">
-        <li v-for="link in secondaryNavLinks" :key="link.id">
-          <router-link class="secondary-nav-link" :to="link.url" :target="link.target"
-            @click.native="closeNavigation()">{{ link.name }}</router-link>
-        </li>
-      </ul>
     </div>
   </nav>
 </template>
@@ -32,19 +26,6 @@
     data() {
       return {
         mainNavLinks: [{
-            name: 'Work',
-            url: '/work'
-          },
-          {
-            name: 'About',
-            url: '/about'
-          },
-          {
-            name: 'Contact',
-            url: '/contact'
-          },
-        ],
-        secondaryNavLinks: [{
             name: 'Work',
             url: '/work'
           },
@@ -143,7 +124,7 @@
 
     .main-nav-link {
       display: inline-block;
-      font-size: $fontSize-lg;
+      font-size: $fontSize-s;
       font-weight: $bold;
       line-height: 1.25;
       padding: 1.25rem 1.25rem 1.25rem 0;
@@ -152,42 +133,6 @@
 
     .mobile-cta {
       padding: 2rem 0;
-    }
-
-    .secondary-nav-links {
-      list-style: none;
-      margin: 0 0 1.5rem;
-      padding: 0;
-
-      li {
-        margin-bottom: .5rem;
-
-        &:last-child {
-          margin: 0;
-        }
-      }
-    }
-
-    .secondary-nav-link {
-      display: inline-block;
-      font-size: $fontSize-s;
-      font-weight: $semi-bold;
-      color: black;
-      line-height: 1.75;
-      padding: .5rem 0;
-    }
-
-    .nav-social-links {
-      display: flex;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    .nav-social-link {
-      font-size: $fontSize-lg;
-      color: $black;
-      margin-right: 1.5rem;
     }
   }
 
@@ -204,7 +149,7 @@
       display: inline-block;
       text-decoration: none;
       color: grey;
-      font-size: $fontSize-s;
+      font-size: $fontSize-lg;
       font-weight: $semi-bold;
       line-height: 1.5;
       padding: 1.5rem 0.8rem;
@@ -228,9 +173,7 @@
     }
 
     .app-navigation__header,
-    .mobile-cta,
-    .secondary-nav-links,
-    .nav-social-links {
+    .mobile-cta {
       display: none;
     }
   }
