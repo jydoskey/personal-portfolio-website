@@ -94,7 +94,6 @@
       display: flex;
       position: sticky;
       top: 0;
-      justify-content: flex-end;
       margin-bottom: 1.5rem;
     }
 
@@ -114,6 +113,7 @@
 
     .app-navigation__body {
       margin: 1.5rem;
+      display: flex;
     }
 
     .main-nav-links {
@@ -148,7 +148,7 @@
     .main-nav-link {
       display: inline-block;
       text-decoration: none;
-      color: grey;
+      color: white;
       font-size: $fontSize-lg;
       font-weight: $semi-bold;
       line-height: 1.5;
