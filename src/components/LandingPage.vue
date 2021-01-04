@@ -44,8 +44,23 @@
 
   .hero-image {
     -webkit-box-sizing: border-box;
-    width: 100%;
+    width: 100vw;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  .hero {
+    display: block;
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 876px;
+    overflow: hidden;
+    background: url("../assets/drop-shadow.png");
   }
 
   .app-header {
