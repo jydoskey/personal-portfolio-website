@@ -11,7 +11,11 @@
         <button class="btn bg-transparent ml-auto btn-hire">Hire Me</button>
       </div>
     </header>
-    <img class="hero-image" src="@/assets/landing.png" alt="hero-image" />
+    <picture>
+      <source media="(max-width:768px)" srcset="@/assets/hero-image-mobile.png">
+      <img class="hero-image" src="@/assets/hero-image.png" alt="hero-image">
+    </picture>
+
   </div>
 </template>
 
@@ -44,23 +48,9 @@
 
   .hero-image {
     -webkit-box-sizing: border-box;
-    width: 100vw;
-    position: relative;
-    z-index: -1;
-    overflow: hidden;
-  }
-
-  .hero {
-    display: block;
+    width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100vw;
-    height: 876px;
     overflow: hidden;
-    background: url("../assets/drop-shadow.png");
   }
 
   .app-header {
