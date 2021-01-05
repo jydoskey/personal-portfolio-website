@@ -15,7 +15,13 @@
       <source media="(max-width:768px)" srcset="@/assets/hero-image-mobile.png">
       <img class="hero-image" src="@/assets/hero-image.png" alt="hero-image">
     </picture>
-
+    <div class="hero-text ml-0">
+      <h1 class="hero-header heading-1">Hi, !'m Jide. A Frontend Developer Based in Lagos, Nigeria.</h1>
+      <p class="caption hero-description pt-2">Passionate about turning abstract web ideas into visual reality,
+        experienced with all the stages of software development cycle. Possess an adequate knowledge of web technologies
+        and
+        agile methodology.</p>
+    </div>
   </div>
 </template>
 
@@ -51,6 +57,49 @@
     width: 100%;
     position: absolute;
     overflow: hidden;
+  }
+
+  .hero-text {
+    color: white;
+    position: absolute;
+
+    @include breakpoint-max (lg) {
+      top: 14rem;
+    }
+
+    @include breakpoint-max (md) {
+      top: 8rem;
+      padding: 0 1rem;
+    }
+
+    @include breakpoint-min (lg) {
+      top: 14rem;
+      left: 5%;
+      width: 38.5rem;
+    }
+  }
+
+  .hero-header {
+    font-size: 2.5rem;
+
+    @include breakpoint-max (lg) {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    @include breakpoint-max(md) {
+      font-size: 25px;
+    }
+  }
+
+  .hero-description {
+    color: white;
+
+    @include breakpoint-max (lg) {
+      text-align: center;
+      margin: 0 auto;
+      max-width: 38.5rem;
+    }
   }
 
   .app-header {
