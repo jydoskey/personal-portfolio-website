@@ -21,6 +21,7 @@
         experienced with all the stages of software development cycle. Possess an adequate knowledge of web technologies
         and
         agile methodology.</p>
+      <button class="btn bg-transparent btn-portfolio text-white">Portfolio</button>
     </div>
   </div>
 </template>
@@ -70,6 +71,10 @@
     @include breakpoint-max (md) {
       top: 8rem;
       padding: 0 1rem;
+    }
+
+    @media (max-width:360px) {
+      top: 4rem;
     }
 
     @include breakpoint-min (lg) {
@@ -166,6 +171,18 @@
 
     @media (min-width: 1440px) {
       max-width: 1300px;
+    }
+  }
+
+  .btn-portfolio {
+    width: 8.9375rem;
+    height: 2.9375rem;
+    padding-top: 0.9rem;
+    border: 1px solid #009D9D;
+    display: block;
+
+    @include breakpoint-max (lg) {
+      margin: 2rem auto 0 auto;
     }
   }
 
