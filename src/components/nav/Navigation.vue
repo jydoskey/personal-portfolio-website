@@ -82,7 +82,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        height: calc(100% - 1rem);
+        height: calc(60% - 1rem);
         width: calc(100% - 1rem);
         z-index: -1;
         margin: .5rem;
@@ -158,7 +158,7 @@
 
       &:hover,
       &.router-link-active {
-        color: $red;
+        color: #009D9D;
       }
     }
 
