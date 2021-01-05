@@ -158,7 +158,7 @@
 
       &:hover,
       &.router-link-active {
-        color: $red;
+        color: #009D9D;
       }
     }
 
