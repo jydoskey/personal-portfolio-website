@@ -1,5 +1,5 @@
 <template>
-  <div class="hero">
+  <section class="landing">
     <header class="app-header">
       <div class="container align-items-center">
         <div class="app-header__content">
@@ -18,20 +18,26 @@
     <div class="hero-text ml-0">
       <h1 class="hero-header heading-1">Hi, !'m Jide. A Frontend Developer Based in Lagos, Nigeria.</h1>
       <p class="caption hero-description pt-2">Passionate about turning abstract web ideas into visual reality,
-        experienced with all the stages of software development cycle. Possess an adequate knowledge of web technologies
+        experienced with all the stages of software development cycle. Possess an adequate knowledge of web
+        technologies
         and
         agile methodology.</p>
       <button class="btn bg-transparent btn-portfolio text-white">Portfolio</button>
     </div>
-  </div>
+    <div>
+      <Work />
+    </div>
+  </section>
 </template>
 
 <script>
   import Navigation from '@/components/nav/Navigation'
+  import Work from '@/components/Work'
   export default {
     name: 'LandingPage',
     components: {
-      Navigation
+      Navigation,
+      Work
     },
     data() {
       return {
@@ -56,7 +62,7 @@
   .hero-image {
     -webkit-box-sizing: border-box;
     width: 100%;
-    position: absolute;
+    position: relative;
     overflow: hidden;
   }
 
