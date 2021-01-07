@@ -10,7 +10,8 @@
             <embed src="https://sad-williams-c75fdc.netlify.app/" style="width:500px; height: 300px;">
             <embed src="https://codepen.io/Jydoskey/pen/XWJPKNL" style="width:500px; height: 300px;">
             <embed src="https://codepen.io/Jydoskey/pen/wLrJjd" style="width:500px; height: 300px;">
-            <p class="paragraph">{{pageName}} is coming to <b>Checkout with REACH</b> soon</p>
+            <embed src="https://nifty-cray-f7844b.netlify.app/" style="width:500px; height: 300px;">
+            <p class="paragraph">for more...</p>
           </div>
         </div>
       </Card>
