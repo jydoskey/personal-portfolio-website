@@ -59,11 +59,17 @@
   @import "@/scss/abstracts/variables.scss";
   @import "@/scss/abstracts/mixins.scss";
 
+  .landing {
+    background-color: black;
+  }
+
   .hero-image {
     -webkit-box-sizing: border-box;
     width: 100%;
     position: relative;
     overflow: hidden;
+    object-fit: cover;
+    background-size: cover;
   }
 
   .hero-text {
