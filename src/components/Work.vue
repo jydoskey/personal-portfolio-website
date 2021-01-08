@@ -6,12 +6,20 @@
           <h2 class="card-header">{Projects}</h2>
         </div>
         <div slot="card-body" class="card-body">
-          <div class="card-body__content">
-            <embed src="https://sad-williams-c75fdc.netlify.app/" style="width:500px; height: 300px;">
-            <embed src="https://codepen.io/Jydoskey/pen/XWJPKNL" style="width:500px; height: 300px;">
-            <embed src="https://codepen.io/Jydoskey/pen/wLrJjd" style="width:500px; height: 300px;">
-            <embed src="https://nifty-cray-f7844b.netlify.app/" style="width:500px; height: 300px;">
-            <p class="paragraph">for more...</p>
+          <div class="container py-3">
+            <div class="row">
+              <div class="col-lg-6 card-body-project">
+                <embed class="bg-smoke card-body-netlify" src="https://sad-williams-c75fdc.netlify.app/">
+              </div>
+              <div class="col-lg-6 pl-0 card-body-project">
+                <div class="col-lg-12">
+                  <embed class="bg-smoke card-body-codepen" src="https://sad-williams-c75fdc.netlify.app/">
+                </div>
+                <div class="col-lg-12">
+                  <embed class="bg-smoke card-body-codepen" src="https://sad-williams-c75fdc.netlify.app/">
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </Card>
@@ -32,15 +40,20 @@
   @import "@/scss/abstracts/_variables.scss";
   @import "@/scss/abstracts/_mixins.scss";
 
-  .card-body__content {
-    padding: 1rem;
-    text-align: center;
+  .card-body-netlify {
+    @include breakpoint-min (lg) {
+      width: 550px;
+      height: 600px;
+    }
+
+    @include breakpoint-max (md) {
+      width: 600px;
+    }
   }
 
-  .icon-showcase {
-    text-align: center;
-    height: 4rem;
-    width: 4rem;
+  .card-body-codepen {
+    width: 550px;
+    height: 297px;
   }
 
   .card-header__placeholder {
