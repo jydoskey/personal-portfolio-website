@@ -5,32 +5,50 @@
         <div slot="card-header" class="text-center card-header__placeholder">
           <h2 class="card-header">{Projects}</h2>
         </div>
-        <div slot="card-body" class="card-body">
-          <div class="container py-3">
+            <div slot="card-body" class="card-body">
+              <div class="card-body__content">
             <div class="row">
               <div class="col-lg-6 card-body-project">
                   <div class="content">
                     <a href="https://sad-williams-c75fdc.netlify.app/" target="_blank">
                       <div class="content-overlay"></div>
-                      <embed class="bg-smoke card-body-netlify" src="https://sad-williams-c75fdc.netlify.app/">
+                      <img class="bg-smoke card-body-netlify" src="@/assets/unsplash-clone.png" alt="unsplash clone">
                       <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">This is a title</h3>
-                        <p class="content-text">This is a short description</p>
+                        <h3 class="content-title">Unsplash Clone</h3>
+                        <p class="content-text">A static page that generates images based on Unsplash Api.</p>
                       </div>
                     </a>
                   </div>
               </div>
               <div class="col-lg-6 pl-0 card-body-project">
                 <div class="col-lg-12">
-                  <embed class="bg-smoke card-body-codepen" src="https://sad-williams-c75fdc.netlify.app/">
+                  <div class="content">
+                    <a href="https://sad-williams-c75fdc.netlify.app/" target="_blank">
+                      <div class="content-overlay"></div>
+                      <img class="bg-smoke card-body-codepen" src="@/assets/js-documentation.png" alt="javascript documentation">
+                      <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">js documentation</h3>
+                        <p class="content-text">A page that explains some basic concepts of javascript.</p>
+                      </div>
+                    </a>
+                  </div>
                 </div>
-                <div class="col-lg-12">
-                  <embed class="bg-smoke card-body-codepen" src="https://sad-williams-c75fdc.netlify.app/">
+                 <div class="col-lg-12">
+                  <div class="content">
+                    <a href="https://codepen.io/Jydoskey/full/wLrJjd" target="_blank">
+                      <div class="content-overlay"></div>
+                      <img class="bg-smoke card-body-codepen" src="@/assets/trombones.png" alt="original trombones">
+                      <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">original trombones</h3>
+                        <p class="content-text">A sample homepage that showcases a wind instrument.</p>
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+              </div>
+            </div>
       </Card>
     </div>
   </section>
@@ -49,34 +67,22 @@
   @import "@/scss/abstracts/_variables.scss";
   @import "@/scss/abstracts/_mixins.scss";
 
-  *,
-  *:before,
-  *:after {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
+  .card-body__content {
+  padding: 1rem;
+  text-align: center;
+}
 
   .content {
     position: relative;
     margin: auto;
     overflow: hidden;
-    @include breakpoint-min (lg) {
-      width: 550px;
-      height: 600px;
-    }
-
-    @include breakpoint-max (md) {
-      width: 600px;
-    }
+    width: 500px;
   }
 
   .content .content-overlay {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
-    height: 99%;
+    height: 100%;
     width: 100%;
     left: 0;
     top: 0;
@@ -145,19 +151,14 @@
   }
 
   .card-body-netlify {
+    object-fit: cover;
     @include breakpoint-min (lg) {
-      width: 550px;
       height: 600px;
-    }
-
-    @include breakpoint-max (md) {
-      width: 600px;
     }
   }
 
   .card-body-codepen {
-    width: 550px;
-    height: 297px;
+    height: 300px;
   }
 
   .card-header__placeholder {
