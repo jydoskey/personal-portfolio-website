@@ -5,27 +5,28 @@
         <div slot="card-header" class="text-center card-header__placeholder">
           <h2 class="card-header">{Projects}</h2>
         </div>
-            <div slot="card-body" class="card-body">
-              <div class="card-body__content">
+        <div slot="card-body" class="card-body">
+          <div class="card-body__content">
             <div class="row">
               <div class="col-lg-6 card-body-project">
-                  <div class="content">
-                    <a href="https://sad-williams-c75fdc.netlify.app/" target="_blank">
-                      <div class="content-overlay"></div>
-                      <img class="bg-smoke card-body-netlify" src="@/assets/unsplash-clone.png" alt="unsplash clone">
-                      <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">Unsplash Clone</h3>
-                        <p class="content-text">A static page that generates images based on Unsplash Api.</p>
-                      </div>
-                    </a>
-                  </div>
+                <div class="content">
+                  <a href="https://sad-williams-c75fdc.netlify.app/" target="_blank">
+                    <div class="content-overlay"></div>
+                    <img class="bg-smoke card-body-netlify" src="@/assets/unsplash-clone.png" alt="unsplash clone">
+                    <div class="content-details fadeIn-bottom">
+                      <h3 class="content-title">Unsplash Clone</h3>
+                      <p class="content-text">A static page that generates images based on Unsplash Api.</p>
+                    </div>
+                  </a>
+                </div>
               </div>
               <div class="col-lg-6 pl-0 card-body-project">
                 <div class="col-lg-12">
                   <div class="content">
                     <a href="https://sad-williams-c75fdc.netlify.app/" target="_blank">
                       <div class="content-overlay"></div>
-                      <img class="bg-smoke card-body-codepen" src="@/assets/js-documentation.png" alt="javascript documentation">
+                      <img class="bg-smoke card-body-codepen" src="@/assets/js-documentation.png"
+                        alt="javascript documentation">
                       <div class="content-details fadeIn-bottom">
                         <h3 class="content-title">js documentation</h3>
                         <p class="content-text">A page that explains some basic concepts of javascript.</p>
@@ -33,7 +34,7 @@
                     </a>
                   </div>
                 </div>
-                 <div class="col-lg-12">
+                <div class="col-lg-12">
                   <div class="content">
                     <a href="https://codepen.io/Jydoskey/full/wLrJjd" target="_blank">
                       <div class="content-overlay"></div>
@@ -47,8 +48,8 @@
                 </div>
               </div>
             </div>
-              </div>
-            </div>
+          </div>
+        </div>
       </Card>
     </div>
   </section>
@@ -68,9 +69,9 @@
   @import "@/scss/abstracts/_mixins.scss";
 
   .card-body__content {
-  padding: 1rem;
-  text-align: center;
-}
+    padding: 1rem;
+    text-align: center;
+  }
 
   .content {
     position: relative;
@@ -152,6 +153,7 @@
 
   .card-body-netlify {
     object-fit: cover;
+
     @include breakpoint-min (lg) {
       height: 600px;
     }
