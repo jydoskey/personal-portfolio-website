@@ -21,7 +21,7 @@
                     </a>
                   </div>
                 </div>
-                <a href="#">
+                <a href="https://github.com/jydoskey/" target="_blank">
                   <button class="secondary-button btn btn-md">
                     <p class="button-text caption text-magenta">View on Github...</p>
                   </button>
@@ -30,7 +30,7 @@
               <div class="col-lg-6">
                 <div class="col-lg-12 card-body-project">
                   <div class="content">
-                    <a href="https://sad-williams-c75fdc.netlify.app/" target="_blank">
+                    <a href="https://codepen.io/Jydoskey/full/OeYLey" target="_blank">
                       <div class="content-overlay"></div>
                       <img class="bg-smoke card-body-codepen" src="@/assets/js-documentation.png"
                         alt="javascript documentation">
@@ -53,7 +53,7 @@
                     </a>
                   </div>
                 </div>
-                <a href="#">
+                <a href="https://codepen.io/Jydoskey/" target="_blank">
                   <button class="primary-button btn btn-md">
                     <p class="button-text caption text-white">View on Codepen...</p>
                   </button>
