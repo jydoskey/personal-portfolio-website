@@ -125,7 +125,7 @@
     left: 0;
     width: 100%;
     z-index: 50;
-    background: transparent;
+    background-color: RGB(0, 0, 0, 0.3);
 
     &>.container {
       display: flex;
