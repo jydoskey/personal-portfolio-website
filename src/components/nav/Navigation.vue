@@ -8,12 +8,9 @@
     </div>
     <div class="app-navigation__body">
       <ul class="main-nav-links">
-        <li v-for="link in mainNavLinks" :key="link.id" :class="link.desktopOnly ? 'd-none d-lg-inline-block' : '' ">
-          <router-link :to="link.url" :target="link.target" class="main-nav-link" exact
-            :class="link.desktopOnly ? 'main-nav-link--get-app' : '' " @click.native="closeNavigation()">
-            {{link.name}}
-            <i class="ml-2" :class="link.iconClass ? link.iconClass : 'd-none'"></i>
-          </router-link>
+        <li v-for="link in mainNavLinks" :key="link.id">
+          <a class="main-nav-link" exact @click="closeNavigation()" :href="link.url">{{link.name}}<i class="ml-2"
+              :class="link.iconClass ? link.iconClass : 'd-none'"></i></a>
         </li>
       </ul>
     </div>
@@ -27,15 +24,15 @@
       return {
         mainNavLinks: [{
             name: 'Work',
-            url: '/work'
+            url: '#work'
           },
           {
             name: 'About',
-            url: '/about'
+            url: '#about'
           },
           {
             name: 'Contact',
-            url: '/contact'
+            url: '#contact'
           },
         ],
       }
@@ -131,9 +128,6 @@
       color: black;
     }
 
-    .mobile-cta {
-      padding: 2rem 0;
-    }
   }
 
   // ==== DESKTOP NAVIGATION ==== //
@@ -166,14 +160,7 @@
       margin-right: 0;
     }
 
-    .main-nav-link--get-app {
-      color: red;
-      font-weight: $bold;
-      margin: 0;
-    }
-
-    .app-navigation__header,
-    .mobile-cta {
+    .app-navigation__header {
       display: none;
     }
   }

@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="work">
     <div>
       <Card>
         <div slot="card-header" class="text-center card-header__placeholder">
@@ -9,21 +9,28 @@
           <div class="card-body__content">
             <div class="row">
               <div class="col-lg-6 card-body-project">
-                <div class="content">
-                  <a href="https://sad-williams-c75fdc.netlify.app/" target="_blank">
-                    <div class="content-overlay"></div>
-                    <img class="bg-smoke card-body-netlify" src="@/assets/unsplash-clone.png" alt="unsplash clone">
-                    <div class="content-details fadeIn-bottom">
-                      <h3 class="content-title">Unsplash Clone</h3>
-                      <p class="content-text">A static page that generates images based on Unsplash Api.</p>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-6 pl-0 card-body-project">
-                <div class="col-lg-12">
+                <div class="col-lg-12 pb-4">
                   <div class="content">
                     <a href="https://sad-williams-c75fdc.netlify.app/" target="_blank">
+                      <div class="content-overlay"></div>
+                      <img class="bg-smoke card-body-netlify" src="@/assets/unsplash-clone.png" alt="unsplash clone">
+                      <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Unsplash Clone</h3>
+                        <p class="content-text">A static page that generates images based on Unsplash Api.</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <a href="https://github.com/jydoskey/" target="_blank">
+                  <button class="secondary-button btn btn-md">
+                    <p class="button-text caption text-magenta">View on Github...</p>
+                  </button>
+                </a>
+              </div>
+              <div class="col-lg-6">
+                <div class="col-lg-12 card-body-project">
+                  <div class="content">
+                    <a href="https://codepen.io/Jydoskey/full/OeYLey" target="_blank">
                       <div class="content-overlay"></div>
                       <img class="bg-smoke card-body-codepen" src="@/assets/js-documentation.png"
                         alt="javascript documentation">
@@ -34,7 +41,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="col-lg-12">
+                <div class="col-lg-12 card-body-project pb-4">
                   <div class="content">
                     <a href="https://codepen.io/Jydoskey/full/wLrJjd" target="_blank">
                       <div class="content-overlay"></div>
@@ -46,6 +53,11 @@
                     </a>
                   </div>
                 </div>
+                <a href="https://codepen.io/Jydoskey/" target="_blank">
+                  <button class="primary-button btn btn-md">
+                    <p class="button-text caption text-white">View on Codepen...</p>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -68,6 +80,24 @@
   @import "@/scss/abstracts/_variables.scss";
   @import "@/scss/abstracts/_mixins.scss";
 
+  .primary-button {
+    background: #009D9D;
+  }
+
+  .secondary-button {
+    background: #ffffff;
+  }
+
+  .button-text {
+    margin: 0 auto;
+
+    @media (min-width:280px) {
+      font-size: 0.8rem;
+      font-style: normal;
+      margin: 0 auto;
+    }
+  }
+
   .card-body__content {
     padding: 1rem;
     text-align: center;
@@ -77,7 +107,8 @@
     position: relative;
     margin: auto;
     overflow: hidden;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
   }
 
   .content .content-overlay {
@@ -152,18 +183,32 @@
   }
 
   .card-body-netlify {
-    object-fit: cover;
+    height: 600px;
 
-    @include breakpoint-min (lg) {
-      height: 600px;
+    @include breakpoint-max (lg) {
+      height: 300px;
+    }
+
+    @media (max-width: 1200px) {
+      max-width: 450px;
     }
   }
 
   .card-body-codepen {
     height: 300px;
+
+    @media (max-width: 1200px) {
+      max-width: 450px;
+    }
   }
 
   .card-header__placeholder {
     margin: 0 auto;
+  }
+
+  .card-body-project {
+    @include breakpoint-max (lg) {
+      padding-bottom: 2rem;
+    }
   }
 </style>
