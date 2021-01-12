@@ -11,11 +11,13 @@
               <div class="col-lg-4 justify-content-center pb-4">
                 <h1>My Biography</h1>
                 <a href="/document/OLAJIDE_OMOTOLA_Resume_19-12-2020-15-56-31.pdf" target="_blank">
-                  <button class="btn bg-transparent btn-hire ml-auto mr-auto">Download CV</button>
+                  <button class="btn bg-transparent download-cv ml-auto mr-auto"><i
+                      class="fas fa-arrow-down download-icon"></i>&nbsp;Download CV</button>
                 </a>
               </div>
               <div class="col-lg-8 pb-4">
-                <p class="">Innovative software engineer with 1+ years of experience in the implementation and development of
+                <p class="">Innovative software engineer with 1+ years of experience in the implementation and
+                  development of
                   data-driven web applications. Passionate about turning abstract web ideas into visual reality and
                   experienced with all stages of the software development cycle, and adequate knowledge of it's
                   technologies and agile methodology. A fast learner that stays true to his fundamental values of
@@ -52,21 +54,29 @@
     text-decoration: none;
   }
 
-  .btn-hire {
-      width: 10rem;
-      height: 2.9375rem;
-      padding-top: 0.9rem;
-      padding-left: 0;
-      padding-right: 0;
-      border: 1px solid #009D9D;
-      color: white;
-      display: block;
+  .download-icon {
+    color: #009D9D;
+  }
 
-      &:hover {
-        color: #009D9D;
-        border: 1px solid white;
+  .download-cv {
+    width: 10rem;
+    height: 2.9375rem;
+    padding-top: 0.9rem;
+    padding-left: 0;
+    padding-right: 0;
+    border: 1px solid #009D9D;
+    color: white;
+    display: block;
+
+    &:hover {
+      color: #009D9D;
+      border: 1px solid white;
+
+      .download-icon {
+        color: white;
       }
     }
+  }
 
   .card-header__placeholder {
     margin: 0 auto;
