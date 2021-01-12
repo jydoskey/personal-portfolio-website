@@ -8,7 +8,9 @@
             <span class="fas fa-bars text-white"></span>
           </button>
         </div>
-        <button class="btn bg-transparent ml-auto btn-hire">Hire Me</button>
+        <a href="#contact">
+          <button class="btn bg-transparent ml-auto btn-hire">Hire Me</button>
+        </a>
       </div>
     </header>
     <picture>
@@ -61,6 +63,10 @@
 <style lang="scss" scoped>
   @import "@/scss/abstracts/variables.scss";
   @import "@/scss/abstracts/mixins.scss";
+
+  a:link {
+    text-decoration: none;
+  }
 
   .landing {
     background-color: black;
