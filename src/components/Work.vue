@@ -83,10 +83,18 @@
 
   .primary-button {
     background: #009D9D;
+
+    &:hover {
+      background: #008080;
+    }
   }
 
   .secondary-button {
     background: #ffffff;
+
+    &:hover {
+      background: $smoke;
+    }
   }
 
   .button-text {
