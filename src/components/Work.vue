@@ -9,14 +9,15 @@
           <div class="card-body__content">
             <div class="row">
               <div class="col-lg-6 card-body-project">
-                <div class="col-lg-12 pb-4">
+                <div class="col-lg-12 pb-5">
                   <div class="content">
                     <a href="https://sad-williams-c75fdc.netlify.app/" target="_blank">
                       <div class="content-overlay"></div>
                       <img class="bg-smoke card-body-netlify" src="@/assets/unsplash-clone.png" alt="unsplash clone">
                       <div class="content-details fadeIn-bottom">
                         <h3 class="content-title">Unsplash Clone</h3>
-                        <p class="content-text">A static page that generates images based on Unsplash Api.</p>
+                        <p class="content-text">A static page that generates images based on Unsplash Api, which also
+                          has a search function implemented.</p>
                       </div>
                     </a>
                   </div>
@@ -41,7 +42,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="col-lg-12 card-body-project pb-4">
+                <div class="col-lg-12 card-body-project pb-5">
                   <div class="content">
                     <a href="https://codepen.io/Jydoskey/full/wLrJjd" target="_blank">
                       <div class="content-overlay"></div>
@@ -82,10 +83,18 @@
 
   .primary-button {
     background: #009D9D;
+
+    &:hover {
+      background: #008080;
+    }
   }
 
   .secondary-button {
     background: #ffffff;
+
+    &:hover {
+      background: $smoke;
+    }
   }
 
   .button-text {

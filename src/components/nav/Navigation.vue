@@ -149,11 +149,12 @@
       padding: 1.5rem 0.8rem;
       margin-right: 0.9rem;
       transition: 300ms ease color;
+    }
 
-      &:hover,
-      &.router-link-active {
-        color: #009D9D;
-      }
+    a:hover,
+    a:active,
+    a:focus {
+      color: #009D9D;
     }
 
     .main-nav-links li:last-of-type a.main-nav-link {

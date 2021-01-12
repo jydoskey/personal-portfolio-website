@@ -8,7 +8,9 @@
             <span class="fas fa-bars text-white"></span>
           </button>
         </div>
-        <button class="btn bg-transparent ml-auto btn-hire">Hire Me</button>
+        <a href="#contact">
+          <button class="btn bg-transparent ml-auto btn-hire">Hire Me</button>
+        </a>
       </div>
     </header>
     <picture>
@@ -22,10 +24,11 @@
         technologies
         and
         agile methodology.</p>
-      <button class="btn bg-transparent btn-portfolio text-white">Portfolio</button>
+      <button class="btn bg-transparent btn-portfolio">Portfolio</button>
     </div>
     <div>
       <Work />
+      <AboutMe />
     </div>
   </section>
 </template>
@@ -33,11 +36,13 @@
 <script>
   import Navigation from '@/components/nav/Navigation'
   import Work from '@/components/Work'
+  import AboutMe from '@/components/About'
   export default {
     name: 'LandingPage',
     components: {
       Navigation,
-      Work
+      Work,
+      AboutMe
     },
     data() {
       return {
@@ -59,12 +64,17 @@
   @import "@/scss/abstracts/variables.scss";
   @import "@/scss/abstracts/mixins.scss";
 
+  a:link {
+    text-decoration: none;
+  }
+
   .landing {
     background-color: black;
   }
 
   .hero-image {
     -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -192,9 +202,15 @@
     padding-top: 0.9rem;
     border: 1px solid #009D9D;
     display: block;
+    color: white;
 
     @include breakpoint-max (lg) {
       margin: 2rem auto 0 auto;
+    }
+
+    &:hover {
+      color: #009D9D;
+      border: 1px solid white;
     }
   }
 
@@ -211,6 +227,11 @@
       border: 1px solid #009D9D;
       color: white;
       display: block;
+
+      &:hover {
+        color: #009D9D;
+        border: 1px solid white;
+      }
     }
   }
 </style>
