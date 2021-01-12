@@ -16,11 +16,12 @@
                 </a>
               </div>
               <div class="col-lg-8 pb-4">
-                <p class="about-text">Innovative software engineer with 1+ years of experience in the implementation and
+                <p class="caption about-text">Innovative software engineer with 1+ years of experience in the
+                  implementation and
                   development of
                   data-driven web applications. Passionate about turning abstract web ideas into visual reality and
                   experienced with all stages of the software development cycle, and adequate knowledge of it's
-                  technologies and agile methodology. A fast learner that stays true to his fundamental values of
+                  technologies and agile methodology.<br> A fast learner that stays true to his fundamental values of
                   creativity, integrity, passion, and simplicity. Looking to join a team of highly skilled and passion-
                   driven engineers while contributing to a meaningful project.</p>
               </div>
@@ -55,9 +56,20 @@
   }
 
   .about-text {
-    text-align: center;
+    color: white;
 
-    @include breakpoint-min (lg) {
+    @media (min-width: 280px) {
+      font-size: 0.75rem;
+    }
+
+    @include breakpoint-max(md) {
+      font-size: 0.875rem;
+      text-align: center;
+    }
+
+    @include breakpoint-min(lg) {
+      font-size: 0.875rem;
+      max-width: 90%;
       text-align: left;
     }
   }
@@ -88,26 +100,6 @@
 
   .card-header__placeholder {
     margin: 0 auto;
-  }
-
-  .hiw-p {
-    @media (min-width: 280px) {
-      font-size: 0.75rem;
-    }
-
-    @include breakpoint-min(md) {
-      font-size: 0.875rem;
-    }
-
-    @include breakpoint-min(lg) {
-      font-size: 1rem;
-      max-width: 90%;
-    }
-
-    @include breakpoint-min(xl) {
-      font-size: 1.125rem;
-      max-width: 100%;
-    }
   }
 
   .about-header {
