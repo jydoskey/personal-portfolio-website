@@ -9,7 +9,7 @@
           <div class="card-body__content">
             <div class="row">
               <div class="col-lg-4 pb-4">
-                <h1 class="pb-3 header-1">My Biography</h1>
+                <h1 class="pb-3 about-header">My Biography</h1>
                 <a href="/document/OLAJIDE_OMOTOLA_Resume_19-12-2020-15-56-31.pdf" target="_blank">
                   <button class="btn bg-transparent download-cv ml-auto mr-auto"><i
                       class="fas fa-arrow-down download-icon"></i>&nbsp;Download CV</button>
@@ -56,6 +56,7 @@
 
   .about-text {
     text-align: center;
+
     @include breakpoint-min (lg) {
       text-align: left;
     }
@@ -87,5 +88,46 @@
 
   .card-header__placeholder {
     margin: 0 auto;
+  }
+
+  .hiw-p {
+    @media (min-width: 280px) {
+      font-size: 0.75rem;
+    }
+
+    @include breakpoint-min(md) {
+      font-size: 0.875rem;
+    }
+
+    @include breakpoint-min(lg) {
+      font-size: 1rem;
+      max-width: 90%;
+    }
+
+    @include breakpoint-min(xl) {
+      font-size: 1.125rem;
+      max-width: 100%;
+    }
+  }
+
+  .about-header {
+    font-size: 40px;
+    max-width: 50%;
+    margin: 0 auto;
+
+    @include breakpoint-min (lg) {
+      text-align: left;
+    }
+
+    @include breakpoint-max(lg) {
+      font-size: 40px;
+      max-width: 100%;
+      text-align: center;
+    }
+
+    @include breakpoint-max(md) {
+      font-size: 30px;
+      text-align: center;
+    }
   }
 </style>
