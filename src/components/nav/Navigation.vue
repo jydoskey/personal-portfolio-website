@@ -151,7 +151,7 @@
       transition: 300ms ease color;
 
       &:hover,
-      &.router-link-active {
+      &.a-active {
         color: #009D9D;
       }
     }
