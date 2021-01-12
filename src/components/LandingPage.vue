@@ -22,7 +22,7 @@
         technologies
         and
         agile methodology.</p>
-      <button class="btn bg-transparent btn-portfolio text-white">Portfolio</button>
+      <button class="btn bg-transparent btn-portfolio">Portfolio</button>
     </div>
     <div>
       <Work />
@@ -68,6 +68,7 @@
 
   .hero-image {
     -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -195,9 +196,15 @@
     padding-top: 0.9rem;
     border: 1px solid #009D9D;
     display: block;
+    color: white;
 
     @include breakpoint-max (lg) {
       margin: 2rem auto 0 auto;
+    }
+
+    &:hover {
+      color: #009D9D;
+      border: 1px solid white;
     }
   }
 
@@ -214,6 +221,11 @@
       border: 1px solid #009D9D;
       color: white;
       display: block;
+
+      &:hover {
+        color: #009D9D;
+        border: 1px solid white;
+      }
     }
   }
 </style>
