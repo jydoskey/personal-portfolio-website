@@ -9,7 +9,7 @@
           <div class="card-body__content">
             <div class="row">
               <div class="col-lg-6 card-body-project">
-                <div class="col-lg-12 pb-4">
+                <div class="col-lg-12 pb-5">
                   <div class="content">
                     <a href="https://sad-williams-c75fdc.netlify.app/" target="_blank">
                       <div class="content-overlay"></div>
@@ -42,7 +42,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="col-lg-12 card-body-project pb-4">
+                <div class="col-lg-12 card-body-project pb-5">
                   <div class="content">
                     <a href="https://codepen.io/Jydoskey/full/wLrJjd" target="_blank">
                       <div class="content-overlay"></div>
