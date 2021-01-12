@@ -16,7 +16,8 @@
                       <img class="bg-smoke card-body-netlify" src="@/assets/unsplash-clone.png" alt="unsplash clone">
                       <div class="content-details fadeIn-bottom">
                         <h3 class="content-title">Unsplash Clone</h3>
-                        <p class="content-text">A static page that generates images based on Unsplash Api.</p>
+                        <p class="content-text">A static page that generates images based on Unsplash Api, which also
+                          has a search function implemented.</p>
                       </div>
                     </a>
                   </div>
