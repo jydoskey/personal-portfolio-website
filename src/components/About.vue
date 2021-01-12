@@ -1,15 +1,74 @@
 <template>
-  <div>
-    
-  </div>
+  <section id="about">
+    <div>
+      <Card>
+        <div slot="card-header" class="text-center card-header__placeholder">
+          <h2 class="card-header">{About Me}</h2>
+        </div>
+        <div slot="card-body" class="card-body">
+          <div class="card-body__content">
+            <div class="row">
+              <div class="col-lg-4 justify-content-center pb-4">
+                <h1>My Biography</h1>
+                <a href="/document/OLAJIDE_OMOTOLA_Resume_19-12-2020-15-56-31.pdf" target="_blank">
+                  <button class="btn bg-transparent btn-hire ml-auto mr-auto">Download CV</button>
+                </a>
+              </div>
+              <div class="col-lg-8 pb-4">
+                <p class="">Innovative software engineer with 1+ years of experience in the implementation and development of
+                  data-driven web applications. Passionate about turning abstract web ideas into visual reality and
+                  experienced with all stages of the software development cycle, and adequate knowledge of it's
+                  technologies and agile methodology. A fast learner that stays true to his fundamental values of
+                  creativity, integrity, passion, and simplicity. Looking to join a team of highly skilled and passion-
+                  driven engineers while contributing to a meaningful project.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Card>
+    </div>
+  </section>
 </template>
 
 <script>
-export default {
-  
-}
+  import Card from "@/components/layout/Card";
+  export default {
+    components: {
+      Card
+    },
+  };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+  @import "@/scss/abstracts/_variables.scss";
+  @import "@/scss/abstracts/_mixins.scss";
 
+  .card-body__content {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  .btn-hire {
+      width: 10rem;
+      height: 2.9375rem;
+      padding-top: 0.9rem;
+      padding-left: 0;
+      padding-right: 0;
+      border: 1px solid #009D9D;
+      color: white;
+      display: block;
+
+      &:hover {
+        color: #009D9D;
+        border: 1px solid white;
+      }
+    }
+
+  .card-header__placeholder {
+    margin: 0 auto;
+  }
 </style>
