@@ -29,6 +29,7 @@
     <div>
       <Work />
       <AboutMe />
+      <Specialisation />
     </div>
   </section>
 </template>
@@ -37,12 +38,14 @@
   import Navigation from '@/components/nav/Navigation'
   import Work from '@/components/Work'
   import AboutMe from '@/components/About'
+  import Specialisation from '@/components/Specialisation'
   export default {
     name: 'LandingPage',
     components: {
       Navigation,
       Work,
-      AboutMe
+      AboutMe,
+      Specialisation
     },
     data() {
       return {
