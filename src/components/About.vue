@@ -10,14 +10,14 @@
             <div class="row">
               <div class="col-lg-4 pb-4">
                 <h1 class="pb-3 about-header">My Biography</h1>
-                <a href="" target="_blank">
+                <a href="@/document/OLAJIDE_OMOTOLA_Resume_14-01-2021-21-48-52.pdf" target="_blank">
                   <button class="btn bg-transparent download-cv ml-auto mr-auto"><i
                       class="fas fa-arrow-down download-icon"></i>&nbsp;Download CV</button>
                 </a>
               </div>
               <div class="col-lg-8 pb-4">
                 <p class="caption about-text">
-                  I am a software engineer with major focus on frontend development who is passionate about turning web
+                  I am a software engineer, with a knack for frontend development who is passionate about turning web
                   ideas into visual reality.<br> Looking to join a team of highly skilled and passion-driven engineers
                   while contributing to a meaningful project.<br>
                   While not reading, I invest other quality leisure moments watching sports especially basketball. A
