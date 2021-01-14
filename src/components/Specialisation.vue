@@ -12,8 +12,8 @@
                 <div class="col-lg-4 mb-3">
                   <Card class="specialisation-html">
                     <div slot="card-header" class="card-header text-center card-header__placeholder">
-                      <p class="p-1 caption mb-4 m-0">HTML5</p>
-                      <h2>{{pageName}}</h2>
+                      <i class="fab fa-html5"></i>
+                      <p class="p-1 caption m-0">HTML5</p>
                     </div>
                     <div slot="card-body" class="card-body">
                       <div class="card-body__content">
@@ -25,8 +25,8 @@
                 <div class="col-lg-4 mb-3">
                   <Card class="specialisation-css">
                     <div slot="card-header" class="card-header text-center card-header__placeholder">
-                      <p class="p-1 caption mb-4 m-0">CSS</p>
-                      <h2>{{pageName}}</h2>
+                      <i class="fab fa-css3"></i>
+                      <p class="p-1 caption m-0">CSS</p>
                     </div>
                     <div slot="card-body" class="card-body">
                       <div class="card-body__content">
@@ -38,8 +38,8 @@
                 <div class="col-lg-4">
                   <Card class="specialisation-js">
                     <div slot="card-header" class="card-header text-center card-header__placeholder">
-                      <p class="p-1 caption mb-4 m-0">JAVASCRIPT</p>
-                      <h2>{{pageName}}</h2>
+                      <i class="fab fa-js"></i>
+                      <p class="p-1 caption m-0">JAVASCRIPT</p>
                     </div>
                     <div slot="card-body" class="card-body">
                       <div class="card-body__content">
@@ -73,10 +73,6 @@
   .card-body__content {
     padding: 1rem;
     text-align: center;
-  }
-
-  .card-header__placeholder {
-    margin: 0 auto;
   }
 
   p.caption {
