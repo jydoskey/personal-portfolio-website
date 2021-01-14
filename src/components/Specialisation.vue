@@ -7,8 +7,48 @@
         </div>
         <div slot="card-body" class="card-body">
           <div class="card-body__content">
-            <div class="row">
-              
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 mb-3">
+                  <Card class="specialisation-html">
+                    <div slot="card-header" class="card-header text-center card-header__placeholder">
+                      <p class="card--bg p-1 caption mb-4 m-0 text-white">COMING SOON</p>
+                      <h2>{{pageName}}</h2>
+                    </div>
+                    <div slot="card-body" class="card-body">
+                      <div class="card-body__content">
+                        <p class="paragraph">{{pageName}} is coming to <b>Checkout with REACH</b> soon</p>
+                      </div>
+                    </div>
+                  </Card>
+                </div>
+                <div class="col-lg-4 mb-3">
+                  <Card class="specialisation-css">
+                    <div slot="card-header" class="card-header text-center card-header__placeholder">
+                      <p class="card--bg p-1 caption mb-4 m-0 text-white">COMING SOON</p>
+                      <h2>{{pageName}}</h2>
+                    </div>
+                    <div slot="card-body" class="card-body">
+                      <div class="card-body__content">
+                        <p class="paragraph">{{pageName}} is coming to <b>Checkout with REACH</b> soon</p>
+                      </div>
+                    </div>
+                  </Card>
+                </div>
+                <div class="col-lg-4">
+                  <Card class="specialisation-js">
+                    <div slot="card-header" class="card-header text-center card-header__placeholder">
+                      <p class="card--bg p-1 caption mb-4 m-0 text-white">COMING SOON</p>
+                      <h2>{{pageName}}</h2>
+                    </div>
+                    <div slot="card-body" class="card-body">
+                      <div class="card-body__content">
+                        <p class="paragraph">{{pageName}} is coming to <b>Checkout with REACH</b> soon</p>
+                      </div>
+                    </div>
+                  </Card>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -37,5 +77,13 @@
 
   .card-header__placeholder {
     margin: 0 auto;
+  }
+
+  .specialisation-html, .specialisation-js {
+    background: snow;
+  }
+
+  .specialisation-css {
+    background: $magenta;
   }
 </style>
