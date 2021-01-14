@@ -12,7 +12,7 @@
                 <div class="col-lg-4 mb-3">
                   <Card class="specialisation-html">
                     <div slot="card-header" class="card-header text-center card-header__placeholder">
-                      <i class="fab fa-html5"></i>
+                      <i class="fab fa-html5 specialisation-icon"></i>
                       <p class="p-1 caption m-0">HTML5</p>
                     </div>
                     <div slot="card-body" class="card-body">
@@ -25,7 +25,7 @@
                 <div class="col-lg-4 mb-3">
                   <Card class="specialisation-css">
                     <div slot="card-header" class="card-header text-center card-header__placeholder">
-                      <i class="fab fa-css3"></i>
+                      <i class="fab fa-css3 specialisation-icon"></i>
                       <p class="p-1 caption m-0">CSS</p>
                     </div>
                     <div slot="card-body" class="card-body">
@@ -38,7 +38,7 @@
                 <div class="col-lg-4">
                   <Card class="specialisation-js">
                     <div slot="card-header" class="card-header text-center card-header__placeholder">
-                      <i class="fab fa-js"></i>
+                      <i class="fab fa-js specialisation-icon"></i>
                       <p class="p-1 caption m-0">JAVASCRIPT</p>
                     </div>
                     <div slot="card-body" class="card-body">
@@ -87,12 +87,16 @@
 
   .specialisation-html,
   .specialisation-js {
-    background: snow;
+    background: #ffffff;
     border: 2px solid $magenta;
     color: #303030;
 
     p.caption {
       color: #303030;
+    }
+
+    .specialisation-icon {
+      color: #bcbcbc;
     }
   }
 
@@ -101,6 +105,10 @@
     color: white;
 
     p.caption {
+      color: white;
+    }
+
+    .specialisation-icon {
       color: white;
     }
   }
