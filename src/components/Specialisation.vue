@@ -16,8 +16,9 @@
                       <p class="p-1 caption m-0">HTML5</p>
                     </div>
                     <div slot="card-body" class="card-body">
-                      <div class="card-body__content">
-                        <p class="paragraph">{{pageName}} is coming to <b>Checkout with REACH</b> soon</p>
+                      <div class="card-body__content pt-0">
+                        <p class="paragraph">Proper understanding and usage of HTML5, DOM & SVGs for content
+                          presentation and structuring on the web.</p>
                       </div>
                     </div>
                   </Card>
@@ -26,11 +27,11 @@
                   <Card class="specialisation-css">
                     <div slot="card-header" class="card-header text-center card-header__placeholder">
                       <i class="fab fa-css3 specialisation-icon"></i>
-                      <p class="p-1 caption m-0">CSS</p>
+                      <p class="p-1 caption m-0">CSS3</p>
                     </div>
                     <div slot="card-body" class="card-body">
-                      <div class="card-body__content">
-                        <p class="paragraph">{{pageName}} is coming to <b>Checkout with REACH</b> soon</p>
+                      <div class="card-body__content pt-0">
+                        <p class="paragraph">is coming to <b>Checkout with REACH</b> soon</p>
                       </div>
                     </div>
                   </Card>
@@ -42,8 +43,8 @@
                       <p class="p-1 caption m-0">JAVASCRIPT</p>
                     </div>
                     <div slot="card-body" class="card-body">
-                      <div class="card-body__content">
-                        <p class="paragraph">{{pageName}} is coming to <b>Checkout with REACH</b> soon</p>
+                      <div class="card-body__content pt-0">
+                        <p class="paragraph">is coming to <b>Checkout with REACH</b> soon</p>
                       </div>
                     </div>
                   </Card>
@@ -97,6 +98,7 @@
 
     .specialisation-icon {
       color: #bcbcbc;
+      font-size: 4rem;
     }
   }
 
@@ -110,6 +112,11 @@
 
     .specialisation-icon {
       color: white;
+      font-size: 4rem;
     }
+  }
+
+  p.paragraph {
+    height: 40px;
   }
 </style>
