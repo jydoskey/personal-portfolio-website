@@ -12,15 +12,13 @@
                   </div>
                 </div>
                 <div class="col-lg-6 mb-3">
-                  <Card class="specialisation-html">
+                  <Card class="contact-html">
                     <div slot="card-header" class="card-header text-center card-header__placeholder">
-                      <i class="fab fa-html5 specialisation-icon"></i>
-                      <p class="p-1 caption m-0">HTML5</p>
+                      <p class="p-1 caption">Hire Me For Your Projects</p>
                     </div>
                     <div slot="card-body" class="card-body pt-3">
                       <div class="card-body__content pt-0">
-                        <p class="paragraph">Proper understanding and usage of HTML, DOM & SVGs for content
-                          presentation and structuring on the web.</p>
+                        
                       </div>
                     </div>
                   </Card>
@@ -53,31 +51,27 @@
   }
 
   p.caption {
+    max-width: 250px;
+    margin: 0 auto;
+
     @media (min-width: 320px) {
       font-size: 16px;
+      margin: 0 auto;
     }
 
     @media (min-width: 769px) {
       font-size: 20px;
+      margin: 0 auto;
     }
   }
 
-  .specialisation-html {
+  .contact-html {
     background: #ffffff;
-    border: 2px solid $magenta;
+    border-radius: 0.2rem;
     color: #303030;
 
     p.caption {
       color: #303030;
     }
-
-    .specialisation-icon {
-      color: #bcbcbc;
-      font-size: 4rem;
-    }
-  }
-
-  p.paragraph {
-    height: 40px;
   }
 </style>
