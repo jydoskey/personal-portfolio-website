@@ -23,8 +23,8 @@
     data() {
       return {
         mainNavLinks: [{
-            name: 'Work',
-            url: '#work'
+            name: 'Projects',
+            url: '#projects'
           },
           {
             name: 'About',

@@ -24,12 +24,15 @@
         technologies
         and
         agile methodology.</p>
-      <button class="btn bg-transparent btn-portfolio">Portfolio</button>
+      <a href="#projects">
+        <button class="btn bg-transparent btn-portfolio">Portfolio</button>
+      </a>
     </div>
     <div>
       <Work />
       <AboutMe />
       <Specialisation />
+      <Contact />
     </div>
   </section>
 </template>
@@ -39,13 +42,15 @@
   import Work from '@/components/Work'
   import AboutMe from '@/components/About'
   import Specialisation from '@/components/Specialisation'
+  import Contact from '@/components/Contact'
   export default {
     name: 'LandingPage',
     components: {
       Navigation,
       Work,
       AboutMe,
-      Specialisation
+      Specialisation,
+      Contact
     },
     data() {
       return {
