@@ -120,6 +120,6 @@
   }
 
   p.paragraph {
-    height: 40px;
+    height: 60px;
   }
 </style>
