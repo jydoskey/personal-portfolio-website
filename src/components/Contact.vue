@@ -1,7 +1,7 @@
 <template>
   <section id="contact">
     <div>
-      <Card>
+      <Card class="contact">
         <div slot="card-body" class="card-body">
           <div class="card-body__content">
             <div class="container">
@@ -16,7 +16,7 @@
                     <div slot="card-header" class="card-header text-center card-header__placeholder">
                       <p class="p-1 caption">Hire Me For Your Projects</p>
                     </div>
-                    <div slot="card-body" class="card-body pt-3">
+                    <div slot="card-body" class="card-body pt-3 form-shadow">
                       <div class="card-body__content pt-0">
                         <form action="">
                           <label>
@@ -145,5 +145,19 @@
   /* Firefox */
   input[type=number] {
     -moz-appearance: textfield;
+  }
+
+  .contact {
+    height: 34rem;
+  }
+
+  .form-shadow {
+    box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+      0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12);
   }
 </style>
