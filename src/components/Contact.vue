@@ -42,6 +42,7 @@
                   </Card>
                 </div>
               </div>
+              <Footer />
             </div>
           </div>
         </div>
@@ -52,9 +53,11 @@
 
 <script>
   import Card from "@/components/layout/Card";
+  import Footer from "@/components/Footer";
   export default {
     components: {
-      Card
+      Card,
+      Footer
     },
   };
 </script>
