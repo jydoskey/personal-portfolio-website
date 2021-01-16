@@ -27,7 +27,7 @@
   .card-header {
     padding: 1.5rem 1rem 0 1rem;
     color: #1c1c1c;
-    font-size: 5rem;
+    font-size: 4.8rem;
 
     @include breakpoint-max(lg) {
       font-size: 4rem;
