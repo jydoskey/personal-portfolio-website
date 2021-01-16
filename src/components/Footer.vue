@@ -1,17 +1,34 @@
 <template>
   <section class="footer pt-4">
-    <div class="icon-container d-flex justify-content-around mr-auto ml-auto">
-      <a href="https://twitter.com/Jide_Omotola" target="_blank"><i
-          class="fab fa-twitter text-magenta icon-placeholder"></i></a>
-      <a href="https://medium.com/@jbold1999" target="_blank"><i
-          class="fab fa-medium text-magenta icon-placeholder"></i></a>
-      <a href="https://github.com/jydoskey/" target="_blank"><i
-          class="fab fa-github text-magenta icon-placeholder"></i></a>
+    <div class="icon-container mr-auto ml-auto">
+      <div class="d-flex justify-content-around">
+        <a href="https://twitter.com/Jide_Omotola" target="_blank"><i
+            class="fab fa-twitter text-magenta icon-placeholder"></i></a>
+        <a href="https://medium.com/@jbold1999" target="_blank"><i
+            class="fab fa-medium text-magenta icon-placeholder"></i></a>
+        <a href="https://github.com/jydoskey/" target="_blank"><i
+            class="fab fa-github text-magenta icon-placeholder"></i></a>
+      </div>
+      <p class="footer-text mt-4">Copyright {{year}}. All rights reserved</p>
     </div>
   </section>
 </template>
 
+<script>
+  export default {
+    data() {
+      return {
+        year: this.moment().format('YYYY')
+      }
+    },
+  }
+</script>
+
 <style lang="scss" scoped>
+  .footer-text {
+    color: #303030;
+  }
+
   .icon-placeholder {
     width: 4rem;
     height: 4rem;
