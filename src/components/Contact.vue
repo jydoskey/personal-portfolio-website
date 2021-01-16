@@ -1,53 +1,51 @@
 <template>
   <section id="contact">
-    <div>
-      <Card class="contact">
-        <div slot="card-body" class="card-body">
-          <div class="card-body__content">
-            <div class="container">
-              <div class="row align-items-center justify-content-between">
-                <div class="col-lg-6">
-                  <div class="text-center card-header__placeholder">
-                    <h2 class="card-header pt-0 pb-4">{Contact Me}</h2>
-                  </div>
-                </div>
-                <div class="col-lg-5 mb-3">
-                  <Card class="contact-html">
-                    <div slot="card-header" class="card-header text-center card-header__placeholder">
-                      <p class="p-1 caption">Hire Me For Your Projects</p>
-                    </div>
-                    <div slot="card-body" class="card-body pt-3 form-shadow">
-                      <div class="card-body__content pt-0">
-                        <form action="">
-                          <label>
-                            <span>Full Name</span>
-                            <input type="text" />
-                          </label>
-                          <label>
-                            <span>Email</span>
-                            <input type="email" />
-                          </label>
-                          <label>
-                            <span>Phone</span>
-                            <input type="number" />
-                          </label>
-                          <label>
-                            <span>Message</span>
-                            <input type="text" />
-                          </label>
-                          <button class="btn btn-magenta btn-send btn-sm ml-auto mr-auto mt-5">Send Message</button>
-                        </form>
-                      </div>
-                    </div>
-                  </Card>
+    <Card class="contact">
+      <div slot="card-body" class="card-body">
+        <div class="card-body__content pb-0">
+          <div class="container">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-lg-6">
+                <div class="text-center card-header__placeholder">
+                  <h2 class="card-header pt-0 pb-4">{Contact Me}</h2>
                 </div>
               </div>
-              <Footer />
+              <div class="col-lg-5 mb-3">
+                <Card class="contact-html">
+                  <div slot="card-header" class="card-header text-center card-header__placeholder">
+                    <p class="p-1 caption">Hire Me For Your Projects</p>
+                  </div>
+                  <div slot="card-body" class="card-body pt-3 form-shadow">
+                    <div class="card-body__content pt-0">
+                      <form action="">
+                        <label>
+                          <span>Full Name</span>
+                          <input type="text" />
+                        </label>
+                        <label>
+                          <span>Email</span>
+                          <input type="email" />
+                        </label>
+                        <label>
+                          <span>Phone</span>
+                          <input type="number" />
+                        </label>
+                        <label>
+                          <span>Message</span>
+                          <input type="text" />
+                        </label>
+                        <button class="btn btn-magenta btn-send btn-sm ml-auto mr-auto mt-5">Send Message</button>
+                      </form>
+                    </div>
+                  </div>
+                </Card>
+              </div>
             </div>
+            <Footer />
           </div>
         </div>
-      </Card>
-    </div>
+      </div>
+    </Card>
   </section>
 </template>
 
