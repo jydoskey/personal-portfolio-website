@@ -1,5 +1,5 @@
 <template>
-  <section id="work">
+  <section id="projects">
     <div>
       <Card>
         <div slot="card-header" class="text-center card-header__placeholder">
