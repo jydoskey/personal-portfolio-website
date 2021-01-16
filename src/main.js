@@ -2,6 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from "@/router/router";
 
+import moment from 'moment';
+Vue.prototype.moment = moment
+
 
 Vue.config.productionTip = false
 
