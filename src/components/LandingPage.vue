@@ -19,7 +19,7 @@
     </picture>
     <div class="hero-text ml-0">
       <h1 class="hero-header heading-1">Hi, !'m Jide. A Frontend Developer Based in Lagos, Nigeria.</h1>
-      <p class="caption hero-description pt-2">Passionate about turning abstract web ideas into visual reality,
+      <p class="caption hero-description pt-4">Passionate about turning abstract web ideas into visual reality,
         experienced with all the stages of software development cycle. Possess an adequate knowledge of web
         technologies
         and
@@ -129,7 +129,8 @@
 
   .hero-description {
     color: white;
-
+    line-height: 1.7;
+    font-size: 13.6px;
     @include breakpoint-max (lg) {
       text-align: center;
       margin: 0 auto;
@@ -214,6 +215,10 @@
 
     @include breakpoint-max (lg) {
       margin: 2rem auto 0 auto;
+    }
+
+    @include breakpoint-min (md) {
+      margin-top: 3rem;
     }
 
     &:hover {
