@@ -56,7 +56,7 @@
 
   .about-text {
     color: white;
-
+    line-height: 1.8;
     @media (min-width: 280px) {
       font-size: 0.75rem;
     }
