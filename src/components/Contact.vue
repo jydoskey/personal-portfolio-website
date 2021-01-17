@@ -17,7 +17,7 @@
                   </div>
                   <div slot="card-body" class="card-body pt-3 form-shadow">
                     <div class="card-body__content pt-0">
-                      <form name="contact" method="post" netlify data-netlify-honeypot="bot-field">
+                      <form action="https://formspree.io/f/xgepdevv" method="POST">
                         <label>
                           <span>Full Name</span>
                           <input type="text" id="Fullname" name="Fullname" required />
