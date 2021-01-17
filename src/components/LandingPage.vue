@@ -1,5 +1,5 @@
 <template>
-  <section class="landing">
+  <section id="landing" class="landing">
     <header class="app-header">
       <div class="container align-items-center">
         <div class="app-header__content">

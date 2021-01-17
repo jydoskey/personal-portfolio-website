@@ -23,6 +23,9 @@
     data() {
       return {
         mainNavLinks: [{
+            name: 'Home',
+            url: '#landing'
+          }, {
             name: 'Projects',
             url: '#projects'
           },
