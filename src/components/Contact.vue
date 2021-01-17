@@ -17,7 +17,7 @@
                   </div>
                   <div slot="card-body" class="card-body pt-3 form-shadow">
                     <div class="card-body__content pt-0">
-                      <form method="POST" name="contact" data-netlify="true">
+                      <form name="contact" netlify>
                         <label>
                           <span>Full Name</span>
                           <input type="text" id="Fullname" name="Fullname" required />
