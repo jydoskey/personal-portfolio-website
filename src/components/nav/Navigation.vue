@@ -24,7 +24,7 @@
       return {
         mainNavLinks: [{
             name: 'Home',
-            url: '#landing'
+            url: '/'
           }, {
             name: 'Projects',
             url: '#projects'
