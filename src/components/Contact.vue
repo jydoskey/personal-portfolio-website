@@ -17,24 +17,25 @@
                   </div>
                   <div slot="card-body" class="card-body pt-3 form-shadow">
                     <div class="card-body__content pt-0">
-                      <form action="">
+                      <form method="POST" name="contact" data-netlify="true">
                         <label>
                           <span>Full Name</span>
-                          <input type="text" />
+                          <input type="text" id="Fullname" name="Fullname" required />
                         </label>
                         <label>
                           <span>Email</span>
-                          <input type="email" />
+                          <input type="email" id="Email" name="Email" required />
                         </label>
                         <label>
                           <span>Phone</span>
-                          <input type="number" />
+                          <input type="number" id="Phone" name="Phone" required />
                         </label>
                         <label>
                           <span>Message</span>
-                          <input type="text" />
+                          <input type="text" id="Message" name="Message" required />
                         </label>
-                        <button class="btn btn-magenta btn-send btn-sm ml-auto mr-auto mt-5">Send Message</button>
+                        <button type="submit" class="btn btn-magenta btn-send btn-sm ml-auto mr-auto mt-5">Send
+                          Message</button>
                       </form>
                     </div>
                   </div>
