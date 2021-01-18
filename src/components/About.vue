@@ -10,7 +10,8 @@
             <div class="row">
               <div class="col-lg-4 pb-4">
                 <h1 class="pb-3 about-header">My Biography</h1>
-                <a href="@/assets/OLAJIDE_OMOTOLA_Resume_18-01-2021-23-31-18.pdf" target="_blank">
+                <a href="https://drive.google.com/file/d/1tktVcY-jmzoAPmctpD9UhgvWaQW-oD5B/view?usp=sharing"
+                  target="_blank">
                   <button class="btn bg-transparent download-cv ml-auto mr-auto"><i
                       class="fas fa-arrow-down download-icon"></i>&nbsp;Download CV</button>
                 </a>
@@ -57,6 +58,7 @@
   .about-text {
     color: white;
     line-height: 1.8;
+
     @media (min-width: 280px) {
       font-size: 0.75rem;
     }
