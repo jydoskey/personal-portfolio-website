@@ -10,7 +10,7 @@
             <div class="row">
               <div class="col-lg-4 pb-4">
                 <h1 class="pb-3 about-header">My Biography</h1>
-                <a href="@/document/OLAJIDE_OMOTOLA_Resume_18-01-2021-23-31-18.pdf" target="_blank">
+                <a href="/document/OLAJIDE_OMOTOLA_Resume_18-01-2021-23-31-18.pdf" target="_blank">
                   <button class="btn bg-transparent download-cv ml-auto mr-auto"><i
                       class="fas fa-arrow-down download-icon"></i>&nbsp;Download CV</button>
                 </a>
