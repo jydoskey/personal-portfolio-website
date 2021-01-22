@@ -8,6 +8,11 @@ Vue.prototype.moment = moment
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+import { KinesisContainer, KinesisElement} from "vue-kinesis"
+
+Vue.component('kinesis-container', KinesisContainer)
+Vue.component('kinesis-element', KinesisElement)
+
 
 Vue.config.productionTip = false
 
