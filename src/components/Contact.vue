@@ -11,35 +11,39 @@
                 </div>
               </div>
               <div class="col-lg-5 mb-3">
-                <Card class="contact-html">
-                  <div slot="card-header" class="card-header text-center card-header__placeholder">
-                    <p class="p-1 caption">Hire Me For Your Projects</p>
-                  </div>
-                  <div slot="card-body" class="card-body pt-3 form-shadow">
-                    <div class="card-body__content pt-0">
-                      <form action="https://formspree.io/f/xgepdevv" method="POST">
-                        <label>
-                          <span>Full Name</span>
-                          <input type="text" id="Fullname" name="Fullname" required />
-                        </label>
-                        <label>
-                          <span>Email</span>
-                          <input type="email" id="Email" name="Email" required />
-                        </label>
-                        <label>
-                          <span>Phone</span>
-                          <input type="number" id="Phone" name="Phone" required />
-                        </label>
-                        <label>
-                          <span>Message</span>
-                          <input type="text" id="Message" name="Message" required />
-                        </label>
-                        <button type="submit" class="btn btn-magenta btn-send btn-sm ml-auto mr-auto mt-5">Send
-                          Message</button>
-                      </form>
-                    </div>
-                  </div>
-                </Card>
+                <kinesis-container>
+                  <kinesis-element :strength="10">
+                    <Card class="contact-html">
+                      <div slot="card-header" class="card-header text-center card-header__placeholder">
+                        <p class="p-1 caption">Hire Me For Your Projects</p>
+                      </div>
+                      <div slot="card-body" class="card-body pt-3 form-shadow">
+                        <div class="card-body__content pt-0">
+                          <form action="https://formspree.io/f/xgepdevv" method="POST">
+                            <label>
+                              <span>Full Name</span>
+                              <input type="text" id="Fullname" name="Fullname" required />
+                            </label>
+                            <label>
+                              <span>Email</span>
+                              <input type="email" id="Email" name="Email" required />
+                            </label>
+                            <label>
+                              <span>Phone</span>
+                              <input type="number" id="Phone" name="Phone" required />
+                            </label>
+                            <label>
+                              <span>Message</span>
+                              <input type="text" id="Message" name="Message" required />
+                            </label>
+                            <button type="submit" class="btn btn-magenta btn-send btn-sm ml-auto mr-auto mt-5">Send
+                              Message</button>
+                          </form>
+                        </div>
+                      </div>
+                    </Card>
+                  </kinesis-element>
+                </kinesis-container>
               </div>
             </div>
             <Footer />
