@@ -32,18 +32,10 @@
       </a>
     </div>
     <div>
-      <div data-aos="fade-up" data-aos-duration="3000">
-        <Work />
-      </div>
-      <div data-aos="fade-up" data-aos-duration="3000">
-        <AboutMe />
-      </div>
-      <div data-aos="fade-up" data-aos-duration="3000">
-        <Specialisation />
-      </div>
-      <div data-aos="fade-up" data-aos-duration="3000">
-        <Contact />
-      </div>
+      <Work />
+      <AboutMe />
+      <Specialisation />
+      <Contact />
     </div>
   </section>
 </template>
