@@ -1,26 +1,43 @@
 <template>
   <div class="app-body">
-      <router-view></router-view>
+    <landing-page />
+    <work />
+    <about-me />
+    <specialisation />
+    <contact />
   </div>
 </template>
 
 <script>
-  export default{
+  import Work from '@/components/Work'
+  import AboutMe from '@/components/About'
+  import Specialisation from '@/components/Specialisation'
+  import Contact from '@/components/Contact'
+  import LandingPage from '@/components/LandingPage.vue'
+  export default {
+    components: {
+      LandingPage,
+      Work,
+      AboutMe,
+      Specialisation,
+      Contact
+    }
   }
-
 </script>
 
 <style lang="scss">
   @import "@/scss/vendors/themed-bootstrap.scss";
   @import "@/scss/main.scss";
 
-   .app-body{
+  .app-body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     min-height: 100vh;
+    background-color: black;
   }
-  .app-main{
+
+  .app-main {
     flex: 1 0 auto;
   }
 </style>
