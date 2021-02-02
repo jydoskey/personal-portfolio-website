@@ -1,5 +1,5 @@
 <template>
-  <section id="landing" class="landing">
+  <section id="landing">
     <header class="app-header">
       <div class="container align-items-center">
         <div class="app-header__content">
@@ -30,12 +30,6 @@
       <a href="#projects">
         <button class="btn bg-transparent btn-portfolio">Portfolio</button>
       </a>
-    </div>
-    <div>
-      <Work />
-      <AboutMe />
-      <Specialisation />
-      <Contact />
     </div>
   </section>
 </template>
@@ -100,18 +94,10 @@
     document.body.appendChild(css);
   };
   import Navigation from '@/components/nav/Navigation'
-  import Work from '@/components/Work'
-  import AboutMe from '@/components/About'
-  import Specialisation from '@/components/Specialisation'
-  import Contact from '@/components/Contact'
   export default {
     name: 'LandingPage',
     components: {
       Navigation,
-      Work,
-      AboutMe,
-      Specialisation,
-      Contact
     },
     data() {
       return {
@@ -135,10 +121,6 @@
 
   a:link {
     text-decoration: none;
-  }
-
-  .landing {
-    background-color: black;
   }
 
   .hero-image {
