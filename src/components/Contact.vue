@@ -19,7 +19,7 @@
                       </div>
                       <div slot="card-body" class="card-body pt-3 form-shadow">
                         <div class="card-body__content pt-0">
-                          <form action="https://formspree.io/f/xgepdevv" method="POST">
+                          <form ref="clearForm" @submit="submit()" action="https://formspree.io/f/xgepdevv" method="POST">
                             <label>
                               <span>Full Name</span>
                               <input type="text" id="Fullname" name="Fullname" required />
@@ -30,7 +30,7 @@
                             </label>
                             <label>
                               <span>Phone</span>
-                              <input type="number" id="Phone" name="Phone" required />
+                              <input type="text" id="Phone" name="Phone" required />
                             </label>
                             <label>
                               <span>Message</span>
@@ -61,6 +61,11 @@
     components: {
       Card,
       Footer
+    },
+    methods: {
+      submit () {
+        this.$refs.clearForm.reset();
+      }
     },
   };
 </script>
