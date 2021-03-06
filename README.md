@@ -1,9 +1,8 @@
 # personal-portfolio-website
 
-### Link
-```
+### Preview
 https://olajideomotola-1a.netlify.app/
-```
+
 
 ## Project setup
 ```
