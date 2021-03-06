@@ -1,5 +1,10 @@
 # personal-portfolio-website
 
+### Link
+```
+https://olajideomotola-1a.netlify.app/
+```
+
 ## Project setup
 ```
 npm install
