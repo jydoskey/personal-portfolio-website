@@ -47,7 +47,7 @@
                     <div slot="card-body" class="card-body pt-3">
                       <div class="card-body__content pt-0">
                         <p class="paragraph">Proper understanding and usage of JS to create event driven and functional
-                          web pages. With a knack for VueJS & NodeJS.</p>
+                          web pages. With a knack for VueJS, NuxtJS & NodeJS.</p>
                       </div>
                     </div>
                   </Card>
