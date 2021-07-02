@@ -18,7 +18,7 @@
       <img class="hero-image" src="@/assets/hero-image.png" alt="hero-image">
     </picture>
     <div class="hero-text ml-0">
-      <h1 class="hero-header heading-1">Hi, !'m <span class="bg-magenta pr-1 pl-1">Jide</span>. I'm
+      <h1 class="hero-header heading-1">Hello, !'m <span class="bg-magenta pr-1 pl-1">Jide</span>. I'm
         <span class="txt-rotate" data-period="2000"
           data-rotate='[ "a Frontend Developer Based in Lagos, Nigeria.", "passionate about turning abstract web ideas into visual reality.", "a problem solver looking to join a skilled team.", "either studying or watching sports during my leisure, I love basketball." ]'></span>
       </h1>
