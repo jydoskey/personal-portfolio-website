@@ -1,6 +1,6 @@
 <template>
   <section id="about">
-    <div>
+    <div class="container">
       <Card>
         <div slot="card-header" class="text-center card-header__placeholder">
           <h2 class="card-header">{About Me}</h2>
@@ -12,7 +12,7 @@
                 <h1 class="pb-3 about-header">My Biography</h1>
                 <a href="https://drive.google.com/file/d/1i8EnV36rqM0MESj0jE2DEindKwCUOYY1/view?usp=sharing"
                   target="_blank">
-                  <button class="btn bg-transparent download-cv ml-auto mr-auto"><i
+                  <button class="btn bg-transparent download-cv mr-auto"><i
                       class="fas fa-arrow-down download-icon"></i>&nbsp;Download CV</button>
                 </a>
               </div>
@@ -97,6 +97,9 @@
         color: white;
       }
     }
+    @include breakpoint-max (md) {
+      margin-left: auto;
+    }
   }
 
   .card-header__placeholder {
@@ -106,7 +109,7 @@
   .about-header {
     font-size: 40px;
     max-width: 50%;
-    margin: 0 auto;
+    
 
     @include breakpoint-min (lg) {
       text-align: left;
@@ -116,6 +119,7 @@
       font-size: 40px;
       max-width: 100%;
       text-align: center;
+      margin: 0 auto;
     }
 
     @include breakpoint-max(md) {
