@@ -10,7 +10,7 @@
             <div class="row">
               <div class="col-lg-4 pb-4">
                 <h1 class="pb-3 about-header">My Biography</h1>
-                <a href="https://drive.google.com/file/d/1i8EnV36rqM0MESj0jE2DEindKwCUOYY1/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1u2gzX7Eq37gyroYfhOjuzA4wG1G01C4S/view?usp=sharing"
                   target="_blank">
                   <button class="btn bg-transparent download-cv mr-auto"><i
                       class="fas fa-arrow-down download-icon"></i>&nbsp;Download CV</button>
