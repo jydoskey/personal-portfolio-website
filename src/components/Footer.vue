@@ -2,7 +2,7 @@
   <section class="footer pt-4">
     <div class="icon-container mr-auto ml-auto">
       <div class="d-flex justify-content-around">
-        <a href="https://twitter.com/Jide_Omotola" target="_blank"><i
+        <a href="https://twitter.com/____jide" target="_blank"><i
             class="fab fa-twitter text-magenta icon-placeholder"></i></a>
         <a href="https://medium.com/@jbold1999" target="_blank"><i
             class="fab fa-medium text-magenta icon-placeholder"></i></a>
