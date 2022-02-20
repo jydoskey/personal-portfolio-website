@@ -1,5 +1,5 @@
 <template>
-  <section class="footer pt-4">
+  <section class="footer pt-4 text-center">
     <div class="icon-container mr-auto ml-auto">
       <div class="d-flex justify-content-around">
         <a href="https://twitter.com/____jide" target="_blank"><i
