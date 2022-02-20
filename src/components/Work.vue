@@ -64,19 +64,23 @@
           </div>
         </div>
       </Card>
+      <specialisation />
     </div>
   </section>
 </template>
 
 <script>
   import Card from "@/components/layout/Card";
+  import Specialisation from "@/components/Specialisation"
   export default {
     components: {
-      Card
+      Card,
+      Specialisation
     },
   };
 </script>
 
+        Specialisation
 <style lang="scss" scoped>
   @import "@/scss/abstracts/_variables.scss";
   @import "@/scss/abstracts/_mixins.scss";
