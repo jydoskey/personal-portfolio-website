@@ -1,30 +1,19 @@
 <template>
   <div class="app-body">
-    <landing-page />
-    <work />
-    <about-me />
-    <specialisation />
-    <contact />
+  <DefaultLayout>
+    <router-view class="router-color"></router-view>
+    </DefaultLayout>
   </div>
 </template>
 
 <script>
-  import Work from '@/components/Work'
-  import AboutMe from '@/components/About'
-  import Specialisation from '@/components/Specialisation'
-  import Contact from '@/components/Contact'
-  import LandingPage from '@/components/LandingPage.vue'
+import DefaultLayout from "@/components/layout/DefaultLayout"
   export default {
     components: {
-      LandingPage,
-      Work,
-      AboutMe,
-      Specialisation,
-      Contact
+      DefaultLayout
     }
   }
 </script>
-
 <style lang="scss">
   @import "@/scss/vendors/themed-bootstrap.scss";
   @import "@/scss/main.scss";
@@ -33,7 +22,10 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    min-height: 100vh;
+    min-height: 100%;
+  }
+
+  .router-color {
     background-color: black;
   }
 

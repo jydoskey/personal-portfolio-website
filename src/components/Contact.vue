@@ -46,7 +46,6 @@
                 </kinesis-container>
               </div>
             </div>
-            <Footer />
           </div>
         </div>
       </div>
@@ -56,11 +55,9 @@
 
 <script>
   import Card from "@/components/layout/Card";
-  import Footer from "@/components/Footer";
   export default {
     components: {
-      Card,
-      Footer
+      Card
     },
     methods: {
       submit () {
