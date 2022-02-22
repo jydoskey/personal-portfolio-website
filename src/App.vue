@@ -22,7 +22,7 @@ import DefaultLayout from "@/components/layout/DefaultLayout"
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    min-height: 100%;
+    min-height: 100vh;
   }
 
   .router-color {
