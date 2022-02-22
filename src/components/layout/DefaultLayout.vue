@@ -1,6 +1,6 @@
 <template>
   <section id="landing">
-    <header class="app-header">
+    <!-- <header class="app-header">
       <div class="container align-items-center">
         <div class="app-header__content">
           <Navigation :isNavActive="navStatus" @closeNav="closeNavigation()" />
@@ -12,19 +12,19 @@
           <button class="btn bg-transparent ml-auto btn-hire">Hire Me</button>
         </a>
       </div>
-    </header>
+    </header> -->
     <slot />
     <Footer />
   </section>
 </template>
 
 <script>
-  import Navigation from '@/components/nav/Navigation';
+//   import Navigation from '@/components/nav/Navigation';
   import Footer from "@/components/Footer"
   export default {
     name: 'default-layout',
     components: {
-      Navigation,
+    //   Navigation,
       Footer
     },
     data() {
