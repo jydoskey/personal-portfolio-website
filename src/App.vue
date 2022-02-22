@@ -1,7 +1,7 @@
 <template>
-  <div class="app-body">
+  <div class="app-body router-color">
   <DefaultLayout>
-    <router-view class="router-color"></router-view>
+    <router-view></router-view>
     </DefaultLayout>
   </div>
 </template>
