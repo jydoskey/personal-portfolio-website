@@ -3,7 +3,7 @@
     <div>
       <Card>
         <div slot="card-header" class="text-center card-header__placeholder">
-          <h2 class="card-header">{Coming Soon}</h2>
+          <h2 class="card-header text-[#f5f3f2]">{Coming Soon}</h2>
         </div>
         <div slot="card-body" class="card-body">
           <div class="card-body__content">
