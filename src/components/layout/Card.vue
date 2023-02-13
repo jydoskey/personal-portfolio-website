@@ -17,7 +17,7 @@
   @import "@/scss/abstracts/_mixins.scss";
 
   .card {
-    background: black;
+    background: #8b8b8b;
     margin-bottom: 1rem;
 
     @include breakpoint-min(lg) {
