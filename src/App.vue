@@ -26,7 +26,7 @@ import DefaultLayout from "@/components/layout/DefaultLayout"
   }
 
   .router-color {
-    background-color: #8b8b8b;
+    background-color: 8da7be;
   }
 
   .app-main {
